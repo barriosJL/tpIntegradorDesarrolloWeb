@@ -1,0 +1,42 @@
+header {position: absolute;
+width: 1450px;
+height: 375px;
+left: 0px;
+top: 0px;}
+
+background {url(header UTN.png);}
+
+
+textoFormulario {
+    position: absolute;
+width: 746px;
+height: 170px;
+left: 54px;
+top: 1858px;
+
+font-family: 'Tempus Sans ITC';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+
+color: #825F5F;
+
+border: 1px solid #825F5F;
+
+}
+
+
+
+footer{
+    position: absolute;
+width: 1450px;
+height: 375px;
+left: -1px;
+top: 2582px;
+
+background: rgba(137, 127, 107, 0.79);
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
