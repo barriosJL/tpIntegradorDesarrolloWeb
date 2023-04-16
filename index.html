@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html>
    <head>
-      
-        
-        
+        <meta charset="utf-8">  
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> TP integrador </title>
-       
         <meta name="description" content=" HTML - JS ">
-
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
-
         <link rel="stylesheet" href="stylo.css">
-
+        <title>Formulario con JavaScript</title>
     </head>
-  <body>
+    <body>
+      
     <header>
-      <img src="ruta/a/tu/logo" alt="Logo de tu marca">
+       <nav> <p>Home</p></nav>
+       <nav> <p>Cabaña 1</p></nav>
+       <nav> <p>Cabaña 2</p></nav>
+       <nav> <p>Contacto</p></nav>
+      <img src="IMG/header UTN.png" >
     </header>
+   
 
     <main>
       <p> Vas a encontrar mas que un lugar ...estarás en tu interior... 
         ...al que necesitas volver...</p>
       <p>Cabaña 1</p>  
-      <div class="galeria">
-        <img src="ruta/a/tu/foto1" alt="Descripción de la foto 1">
-        <img src="ruta/a/tu/foto2" alt="Descripción de la foto 2">
-        <img src="ruta/a/tu/foto3" alt="Descripción de la foto 3">
-        <img src="ruta/a/tu/foto4" alt="Descripción de la foto 4">
-      <p>Cabaña 2</p>  
-        <img src="ruta/a/tu/foto5" alt="Descripción de la foto 5">
-        <img src="ruta/a/tu/foto6" alt="Descripción de la foto 6">
-        <img src="ruta/a/tu/foto7" alt="Descripción de la foto 7">
-        <img src="ruta/a/tu/foto8" alt="Descripción de la foto 8">
+      <div class="galeriaCabaña1">
+        <img src="IMG/8.png" alt="Descripción de la foto 1">
+        <img src="IMG/7.png" alt="Descripción de la foto 2">
+        <img src="IMG/6.png" alt="Descripción de la foto 3">
+        <img src="IMG/11.png" alt="Descripción de la foto 4">
       </div>
+      <p>Cabaña 2</p>  
+      <div class="galeriaCabaña2">
+        <img src="IMG/9.png" alt="Descripción de la foto 5">
+        <img src="IMG/5.png" alt="Descripción de la foto 6">
+        <img src="IMG/10.png" alt="Descripción de la foto 7">
+        <img src="IMG/4.png" alt="Descripción de la foto 8">
+      </div>
+      <p>Exteriores </p>
+      <div class="Exteriores">
+        <img src="IMG/1.png" alt="Descripción de la foto 5">
+        <img src="IMG/2.png" alt="Descripción de la foto 6">
+        <img src="IMG/3.png" alt="Descripción de la foto 7">
+      </div>
+
       <form class="formulario" action="">
         <p class="textoFomulario">Contanos sobre vos
           ...queremos ofrecerte una estadía personalizada...</p>
-        <input type="text" placeholder="nombre">
-        <input type="email" placeholder="email">
-        <input type="text" placeholder="telefono">
+          <form id="myForm">
+            <input type="text" placeholder="nombre" id="nombre">
+            <input type="email" placeholder="email" id="email">
+            <input type="text" placeholder="telefono" id="telefono">
+            <input type="button" value="Enviar" id="btnEnviar">
+            
+          </form>
+          <script src="app.js"></script>
+        
       </form>
       <div class="mapa">
-        <!-- Aquí podrías agregar tu ubicación de Google Maps -->
+        <!-- agregar  ubicación de Google Maps -->
       </div>
     </main>
 
@@ -56,8 +72,5 @@
       <p>Política de privacidad - Site Maps - Aviso legal</p>
     </footer>
     
-    <script>
-      // Aquí podrías agregar tu código de JavaScript
-    </script>
-  </body>
+     </body>
 </html>
