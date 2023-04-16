@@ -1,14 +1,27 @@
-header {position: absolute;
-width: 1450px;
-height: 375px;
-left: 0px;
-top: 0px;}
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 20px;
+  }
 
-background {url(header UTN.png);}
 
 
 textoFormulario {
-    position: absolute;
+position: absolute;
 width: 746px;
 height: 170px;
 left: 54px;
@@ -30,7 +43,7 @@ border: 1px solid #825F5F;
 
 
 footer{
-    position: absolute;
+position: absolute;
 width: 1450px;
 height: 375px;
 left: -1px;
