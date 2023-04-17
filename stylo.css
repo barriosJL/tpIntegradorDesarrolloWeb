@@ -32,8 +32,13 @@ text-align: center;
 
 color: #825F5F;
 border: 1px solid #825F5F;
-
 }
+.mapa{
+  overflow-anchor: relative;
+  position: relative;
+  width: 1450px;
+}
+
 footer{
 position: absolute;
 width: 1450px;
