@@ -17,9 +17,6 @@ nav a {
   text-decoration: none;
   margin-right: 20px;
 }
-
-
-
 textoFormulario {
 position: absolute;
 width: 746px;
@@ -35,13 +32,9 @@ line-height: 47px;
 text-align: center;
 
 color: #825F5F;
-
 border: 1px solid #825F5F;
 
 }
-
-
-
 footer{
 position: absolute;
 width: 1450px;
