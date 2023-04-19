@@ -1,22 +1,35 @@
+body{
+  margin: 0;
+}
+
 header {
-  background-color: #fff;
+  background-size: cover;
   border-bottom: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 10px;
+  height:auto;
+
+}
+.nav-enlace{
+  color: #000000;
+  padding: 10px 100px;
+  display:inline-block;
+  text-decoration: none;
+  align-items: center;
+  margin:20px ;
+  margin-left: 50px;
+}
+.nav-enlace:hover{
+  background-color: #f9d9d9;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.texto1{
+  font-size: 30px;
+  margin: 20px;
+  margin-left: 350px;
 }
-nav a {
-  color: #333;
-  font-weight: 600;
-  text-decoration: none;
-  margin-right: 20px;
-}
-textoFormulario {
+
+.textoFormulario {
 position: absolute;
 width: 746px;
 height: 170px;
@@ -33,6 +46,10 @@ text-align: center;
 color: #825F5F;
 border: 1px solid #825F5F;
 }
+myfrom{
+  display: inline-block;
+}
+
 .mapa{
   overflow-anchor: relative;
   position: relative;
@@ -46,6 +63,7 @@ height: 375px;
 left: -1px;
 top: 2582px;
 
+background: rgba(137, 127, 107, 0.79);
 transform: matrix(1, 0, 0, 1, 0, 0);
 
 }
