@@ -1,40 +1,197 @@
 body{
   margin: 0;
+  
 }
 
 header {
   background-size: cover;
-  border-bottom: 1px solid #ccc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 10px;
   height:auto;
 
 }
+
+
 .nav-enlace{
   color: #000000;
   padding: 10px 100px;
   display:inline-block;
   text-decoration: none;
   align-items: center;
-  margin:20px ;
-  margin-left: 50px;
+  margin: 20px;px ;
+  margin-left: 10px;
+  font-size: 32px;
 }
+
 .nav-enlace:hover{
   background-color: #f9d9d9;
+    
 }
 
 .texto1{
-  font-size: 30px;
+  font-size:30px;
   margin: 20px;
   margin-left: 350px;
+  width: 1000px;
+  height: 200px;
 }
 
-.textoFormulario {
+.Cabañatitulo{
+  font-size:30px;
+  margin: 10px;
+  margin-left: 100px;
+  
+}
+.Cabañatitulo2{
+  font-size:30px;
+  margin: 10px;
+  margin-left: 100px;
+  
+}
+.Exteriores{
+  font-size:30px;
+  margin: 10px;
+  margin-left: 100px;
+  
+}
+
+.fondoform{
 position: absolute;
+width: 1000px;
+height: 527px;
+left: -1px;
+top: 1680px;
+
+background: url(IMG\fondoform.png);
+margin-bottom: 20px;
+}
+
+#nombre{
+  position: absolute;
+  width: 104px;
+  height: 32px;
+  left: 700px;
+  top: 1400px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #A29A8A;
+  
+  border: 1px solid #A29A8A;
+  
+  
+  /* Rectangle 7 */
+  
+  
+  position: absolute;
+  width: 410px;
+  height: 34px;
+  left: 888px;
+  top: 1817px;
+  
+  background: #D9D9D9;
+  
+
+}
+
+#email {
+  position: absolute;
+  width: 69px;
+  height: 32px;
+  left: 888px;
+  top: 1872px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #A29A8A;
+  
+  border: 1px solid #A29A8A;
+  
+  
+  /* Rectangle 8 */
+  
+  
+  position: absolute;
+  width: 410px;
+  height: 33px;
+  left: 888px;
+  top: 1902px;
+  
+  background: #D9D9D9;
+}
+
+#telefono {
+  position: absolute;
+  width: 112px;
+  height: 32px;
+  left: 888px;
+  top: 1955px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #A29A8A;
+  
+  border: 1px solid #A29A8A;
+  
+  
+  /* Rectangle 9 */
+  
+  
+  position: absolute;
+  width: 410px;
+  height: 30px;
+  left: 888px;
+  top: 1987px;
+  
+  background: #D9D9D9;
+   
+}
+
+#btnEnviar{
+  position: absolute;
+width: 50px;
+height: 47px;
+left: 1026px;
+top: px;
+
+background: #D9D9D9;
+
+
+/* Enviar */
+
+
+position: absolute;
+width: 129px;
+height: 47px;
+left: 1026px;
+top: 1725px;
+
+font-family: 'Tempus Sans ITC';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #000000;
+
+}
+
+.texto2 {
+  position: absolute;
 width: 746px;
 height: 170px;
 left: 54px;
-top: 1858px;
+top: 1800px;
 
 font-family: 'Tempus Sans ITC';
 font-style: normal;
@@ -44,8 +201,10 @@ line-height: 47px;
 text-align: center;
 
 color: #825F5F;
-border: 1px solid #825F5F;
+
+
 }
+
 myfrom{
   display: inline-block;
 }
@@ -54,6 +213,8 @@ myfrom{
   overflow-anchor: relative;
   position: relative;
   width: 1450px;
+  height: 375px;
+  padding-top: 40px;
 }
 
 footer{
@@ -63,7 +224,19 @@ height: 375px;
 left: -1px;
 top: 2582px;
 
-background: rgba(137, 127, 107, 0.79);
-transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.u1.png{
 
+}
+.w1.u1.png{
+
+}
+.e1.png{
+
+}
+.f1.png{
+
+}
+.t1.e1.png{
+  
 }
