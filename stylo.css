@@ -51,6 +51,7 @@ header {
   margin: 10px;
   margin-left: 100px;
   
+  
 }
 
 .fondoform{
@@ -223,20 +224,77 @@ width: 1450px;
 height: 375px;
 left: -1px;
 top: 2582px;
+background: rgba(137, 127, 107, 0.79);
+transform: matrix(1, 0, 0, 1, 0, 0);
 
 }
-.u1.png{
+.emailcuenta{
+  box-sizing: border-box;
+
+position: absolute;
+width: 271px;
+height: 41px;
+left: 1082px;
+top: 100px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 19px;
+text-decoration-line: underline;
+color: #000000;
 
 }
-.w1.u1.png{
+.Politica{
 
-}
-.e1.png{
-
-}
-.f1.png{
-
-}
-.t1.e1.png{
+  position: absolute;
+  width: 293px;
+  height: 46.6px;
+  left: 726px;
+  top: 100px;
   
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+  
+  
+}
+.Site{
+  position: absolute;
+width: 224px;
+height: 36.01px;
+left: 726px;
+top: 130px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.Aviso{
+  position: absolute;
+width: 293px;
+height: 46.6px;
+left: 726px;
+top: 70px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+
 }

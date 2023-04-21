@@ -15,6 +15,7 @@ const BtnEnviar = document.querySelector("#btnEnviar");
 BtnEnviar.addEventListener("click", function() {
     let name = document.querySelector("#nombre").value;
     let email = document.querySelector("#email").value;
-    alert("Nombre: " + name + " Email: " + email);
+    let teléfono = document.querySelector("#Teléfono").value;
+    alert("Nombre: " + name + " Email: " + email "Telefono: "+ teléfono);
 
     });
